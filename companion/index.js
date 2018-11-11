@@ -1,7 +1,6 @@
 import { peerSocket } from "messaging";
 
-// const atheneURL = "https://localhost:3000/athene/vital";
-// const atheneURL = "https://4558692d.ngrok.io/athene/vital";
+// const atheneURL = "https://eedc5914.ngrok.io/athene/vital";
 const atheneURL = "https://davidcastaneda.lib.id/hoot@dev/receiveVitals/";
 
 peerSocket.onopen = () => console.log("Connection opened.");
